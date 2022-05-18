@@ -7,3 +7,4 @@ const onMoveButton = (e) => {
   button.style.left = `${Math.floor(Math.random() * (window.innerWidth - button.clientWidth))}px`;
 };
 bodyRef.addEventListener("mouseover", onMoveButton);
+bodyRef.addEventListener("touchmove", onMoveButton);
